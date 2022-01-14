@@ -27,7 +27,7 @@ router.delete('/:id', withAuth, (req, res) => {
 router.post('/', withAuth, (req, res) => {
     Post.create({
         title: req.body.title,
-        post_url: req.body.post_url,
+        post_body: req.body.post_body,
         user_id: req.session.user_id
     })
       .then(dbPostData => res.json(dbPostData))
@@ -85,7 +85,7 @@ router.get('/:id', (req, res) => {
         },
         attributes: [
             'id',
-            'post_url',
+            'post_body',
             'title',
             'created_at',
             [sequelize.literal('(SELECT COUNT(*) FROM vote WHERE post.id = vote.post_id)'), 'vote_count']
@@ -125,7 +125,7 @@ router.get('/', (req, res) => {
         order: [['created_at', 'DESC']],
         attributes: [
             'id',
-            'post_url',
+            'post_body',
             'title',
             'created_at',
             [sequelize.literal('(SELECT COUNT(*) FROM vote WHERE post.id = vote.post_id)'), 'vote_count']
