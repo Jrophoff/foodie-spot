@@ -1,5 +1,5 @@
 randomJoke = function () {
-  const chuckJoke = 'https://api.chucknorris.io/jokes/random';
+  const chuckJoke = ' https://api.chucknorris.io/jokes/random?category=food';
 
   fetch(chuckJoke).then(function (response) {
     if (response.ok) {
