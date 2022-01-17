@@ -4,7 +4,7 @@
 
   body {
     font-family:helvetica, Arial, sans-serif;
-    color: var(--tertiary-color);
+    color: var(--secondary-color);
     }
   
   :root {
@@ -57,6 +57,22 @@ header nav a {
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
+}
+h2 {
+  color: var(--secondary-color);
+  padding: 10px;
+  font-weight: bold;
+  text-align: center;
+}
+
+li {
+  color: var(--secondary-color);
+  padding: 15px 15px;
+  border: 2px solid var(--secondary-color);
+  background: #ffffff;
+  border-radius: 12px;
+  margin-bottom: 20px;
+  list-style: none;
 }
 
 form {

@@ -9,15 +9,18 @@
 </section>
 {{#if posts.length}}
 <section class ="form-div">
-    <h3>Your Recipies</h3>
-    <ol>
+    
+    <form id= "form-recipies">
+        <h2>Your Recipies</h2>
+    <ul>
         {{#each posts as |post|}}
         <li>
             {{> post-info post}}
             <a href="/dashboard/edit/{{post.id}}" class="edit-link">Edit post</a>
         </li>
         {{/each}}
-    </ol>
+    </ul>
+    </form>
 </section>
 {{/if}}
 <script src="/javascript/add-post.js"></script>
