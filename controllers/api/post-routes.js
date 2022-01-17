@@ -59,7 +59,7 @@ router.put('/:id', withAuth, (req, res) => {
   Post.update(
     {
       title: req.body.title,
-      body: req.body.post_body,
+      post_body: req.body.post_body,
     },
     {
       where: {
