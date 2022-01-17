@@ -1,43 +1,42 @@
-<!DOCTYPE html>
-<html lang="en">
+<html lang='en'>
 
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset='UTF-8' />
+    <meta name='viewport' content='width=device-width, initial-scale=1.0' />
     <title>Foodie Spot</title>
-</head>
+  </head>
 
-<body>
-    <div class="wrapper">
-        <header>
-            <h1>
-                <a href="/">Foodie Spot</a>
-            </h1>
-            
-            <nav>
-                {{#if loggedIn}}
-                <a href="/dashboard">dashboard</a>
-                <button id="logout" class="btn-no-style">logout</button>
-                {{else}}
-                <a href="/login">login</a>
-                {{/if}}
-            </nav>
-        </header>
-        <main>
-            {{{ body }}}
-        </main>
-        <footer>
-            <div>Thanks for visiting!</div>
-            <div id='jokeContainer'>
-                
-            </div>
+  <body>
+    <div class='wrapper'>
+      <header>
+        <h1>
+          <a href='/'>Foodie Spot</a>
+        </h1>
 
-        </footer>
+        <nav>
+          {{#if loggedIn}}
+            <a href='/dashboard'>dashboard</a>
+            <button id='logout' class='btn-no-style'>logout</button>
+          {{else}}
+            <a href='/login'>login</a>
+          {{/if}}
+        </nav>
+      </header>
+      <main>
+        {{{body}}}
+      </main>
+      <footer>
+        <div>Thanks for visiting!</div>
+        <div id='jokeContainer'>
+
+        </div>
+
+      </footer>
     </div>
 
     {{#if loggedIn}}
-    <script src="/javascript/logout.js"></script>
+      <script src='/javascript/logout.js'></script>
     {{/if}}
-</body>
-<script src="/javascript/footer.js"></script>
+  </body>
+  <script src='/javascript/footer.js'></script>
 </html>
