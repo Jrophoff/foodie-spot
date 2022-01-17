@@ -1,20 +1,15 @@
-<section>
-    <h2>Share A Recipie</h2>
-
+<section class="form-div">
     <form class="new-post-form">
-        <div>
+        <h3>Share A Recipie</h3>
             <label for="post-title">Dish Name</label>
             <input type="text" id="post-title" name="post-title" />
-        </div>
-        <div>
             <textarea name="post-body"></textarea>
-        </div>
-        <button type="submit" class="btn">Share</button>
+        <button type="submit">Share</button>
     </form>
 </section>
 {{#if posts.length}}
-<section>
-    <h2>Your Recipies</h2>
+<section class ="form-div">
+    <h3>Your Recipies</h3>
     <ol>
         {{#each posts as |post|}}
         <li>
