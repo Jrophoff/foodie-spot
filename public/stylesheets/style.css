@@ -91,6 +91,9 @@ form {
 a {
   color: var(--secondary-color);
 }
+small {
+  color: dimgrey;
+}
 form input {
     display: block;
     padding: 7px 15px;
