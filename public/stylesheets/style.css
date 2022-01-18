@@ -164,3 +164,28 @@ footer {
 #jokeContainer {
     color : var(--secondary-color);
 }
+
+@media screen and (max-width: 768px) {
+  form {
+    padding: 30px 15px;
+    width: 60%;
+  }
+  .card {
+    width: 60%;
+  }
+
+}
+@media screen and (max-width: 575px) {
+ form button {
+   width: 100%;
+ }
+ .card button {
+  width: 100%;
+ }
+ header {
+position: relative;
+ }
+ header nav a {
+   font-size:larger;
+ }
+}
