@@ -73,6 +73,11 @@ h2 {
   background-color: rgb(252,225,56);
   font-weight: bold;
 }
+
+p.card-text {
+  white-space: pre-wrap;
+} 
+
 form {
     color:var(--secondary-color);
     background-color: rgb(252,225,56);
@@ -111,6 +116,8 @@ form input:focus {
 form label {
     margin: 0 5px;
   }
+
+
   form textarea {
     display: block;
     padding: 7px 15px;
@@ -119,7 +126,7 @@ form label {
     width: 100%;
     margin-bottom: 15px;
     border-radius: 10px;
-    background-color: rgba(255,255,255, 0.75)
+    background-color: rgba(255,255,255, 0.75);
   }
   form textarea:focus {
     background-color: rgba(255,255,255, 1);
