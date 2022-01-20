@@ -31,6 +31,9 @@
     "mysql2": "^2.3.3",
     "sequelize": "^6.13.0"
   },
-  "devDependencies": {},
-  "keywords": []
+  "keywords": [],
+  "devDependencies": {
+    "stylelint": "^14.2.0",
+    "stylelint-config-standard": "^24.0.0"
+  }
 }
