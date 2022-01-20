@@ -26,10 +26,10 @@
 
 ## Contributors
 
-#### *Bryant Torres 
-#### *Jordan Ophoff 
-#### *Isaac Andrade
-#### *Tyreeze Weddington
+#### - Bryant Torres 
+#### - Jordan Ophoff 
+#### - Isaac Andrade
+#### - Tyreeze Weddington
 
 ## Screenshot
 
@@ -38,14 +38,6 @@
 ## Link
 
 https://mighty-mesa-79383.herokuapp.com/
-
-## Questions
-#### If you have further questions please reach out via GitHub or Email.
-### GitHub:
-#### <a href="https://github.com/jrophoff">Github</a>
-
-### Email:
-#### jrophoff@gmail.com
 
 ## License
 
