@@ -19,7 +19,7 @@ async function signupFormHandler(event) {
     if (response.ok) {
       document.location.replace('/dashboard');
     } else {
-      alert(response.statusText);
+      alert(response.statusText + " (Password length must be at least 4 characters or e-mail/username already in use)");
     }
   }
 }
@@ -43,7 +43,7 @@ async function loginFormHandler(event) {
     if (response.ok) {
       document.location.replace('/dashboard');
     } else {
-      alert(response.statusText);
+      alert("Invalid Credentails");
     }
   }
 }
