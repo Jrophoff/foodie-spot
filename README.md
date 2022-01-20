@@ -1,35 +1,57 @@
-# Foodie Spot 
+
+# Foodie Spot
+
+![License](https://img.shields.io/badge/License-MIT_License-blue)
+
+
+## Table of Contents
+
+- [Description](#description)
+- [Usage](#usage)
+- [Contributors](#contributors)
+- [Screenshot](#screenshot)
+- [Link](#link)
+- [Questions](#questions)
+    - [GitHub](#github)
+    - [Email](#email)
+- [License](#license)
 
 ## Description
 
-Group Project 2 for Full Stack Development Course with BootCampSpot
+#### An application where you blog and share recipes.
 
-## User Story
+## Usage
 
-```
-As a person who has a particular interest in food, I want a website where a recipe is described in a more personal way.  This allows amateur cooks to learn and interact with each other, building community over food. 
+#### Browse through the posts. If you would like to interact with the web-page please set up an account.
 
-```
+## Contributors
 
-## Technologies Used
+#### *Bryant Torres 
+#### *Jordan Ophoff 
+#### *Isaac Andrade
+#### *Tyreeze Weddington
 
-* HTML
-* CSS
-* NodeJS
-* Git
-* Heroku
+## Screenshot
 
-## URLs
+![image](https://user-images.githubusercontent.com/90431294/150272078-ae0e4365-004d-474b-8b52-12bd6fe011aa.png)
 
-* [GitHub repository]
-* [Heroku deployed website]
+## Link
 
-## Developers
+https://mighty-mesa-79383.herokuapp.com/
 
-* Bryant Torres
-* Jordan Ophoff
-* Isaac Andrade
-* Tyreeze Weddington
+## Questions
+#### If you have further questions please reach out via GitHub or Email.
+### GitHub:
+#### <a href="https://github.com/jrophoff">Github</a>
+
+### Email:
+#### jrophoff@gmail.com
+
+## License
+
+#### MIT License
+
+Click [here](https://choosealicense.com/licenses/mit/) for more information on the license used in this application.
 
 
-## Screenshots
+       
